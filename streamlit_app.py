@@ -29,7 +29,7 @@ def freq_to_midi(frequency):
 
 # --- (2) Streamlit web page settings ---
 st.set_page_config(layout="wide")
-st.title("FFT-based Automatic Chord Recognition")
+st.title("FFT-based Chord Analyzer")
 st.markdown("### Identify Chords from Audio Signals by Analyzing the Fourier Transform.")
 
 # --- (3) file uploader widget ---
